@@ -3,6 +3,7 @@ import shutil
 import sys
 
 def main():
+    # Resolve absolute path relative to script location
     base_dir = os.path.dirname(os.path.abspath(__file__))
     src_path = os.path.join(base_dir, "entry.png")
     
